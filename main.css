@@ -1,0 +1,143 @@
+@font-face
+{
+    font-family: 'rockeby';
+    src: url(media/rockebycdblackit.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'rockeby1';
+    src: url(media/RockebyCd-LtIt.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'blanch';
+    src: url(media/BLANCH_CONDENSED.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'unisansheavy';
+    src: url('media/Uni Sans Heavy Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'unisansthin';
+    src: url('media/Uni Sans Thin.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#level1
+{
+    background-color: #28002E;
+    background-image: url('media/splash_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#particles-js
+{
+    height: 100vh;
+}
+#splash
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-image: url('media/splash.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+#logo
+{
+    width: 154px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+#menu
+{
+    position: absolute;
+    top: 22px;
+    right: 40px;
+}
+#menu ul
+{
+    list-style-type: none;
+}
+#menu ul li
+{
+    display: inline;
+}
+#menu ul li a
+{
+    font-family: unisansheavy, serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+    padding: 2px 20px 10px 20px;
+    transition:All 0.2s ease-in-out;
+-webkit-transition:All 0.2s ease-in-out;
+-moz-transition:All 0.2s ease-in-out;
+-o-transition:All 0.2s ease-in-out;
+border-bottom: 5px solid rgba(255,255,255,0);
+}
+#menu ul li #last
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 100px 10px 20px 10px;
+    background: rgba(245,0,86,1);
+background: linear-gradient(to right, rgba(245,0,86,1) 0%, rgb(255, 29, 25) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', endColorstr='#FF1D19', GradientType=1 );
+}
+#menu ul li a:hover
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.9);
+    border-bottom: 5px solid rgba(255,255,255,0.1);
+}
+#agencytext
+{
+    font-family: rockeby;
+    color: #FFF;
+    font-size: 90px;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-110%);
+    text-shadow: 0px 8px 0px rgba(0, 0, 0, 1);
+}
+#agencysubtext
+{
+    font-family: rockeby1;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-110%);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}

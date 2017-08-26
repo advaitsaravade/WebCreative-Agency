@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="media/logo.png">
+        <title>Web Creative - Web Design Agency in Vancouver BC</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div id="level1">
+            <div id="particles-js"></div>
+            <div id="splash"></div>
+            <h1 id='agencytext'>We are Creative</h1>
+            <h2 id='agencysubtext'>A web agency crafting the most beautiful and well designed websites for local businesses.</h2>
+        </div>
+        <img src='media/logo_full.png' alt='WC - Web Design Agency Logo' id='logo' />
+            <span id='logotxt'>WebCreative</span>
+        <div id="menu">
+            <ul>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#works'>Works</a></li>
+                <li><a href='#contact' id='last'>Let's Talk</a></li>
+            </ul>
+        </div>
+        <div id="about">
+        <h1>About</h1>
+        <h2>We're a team of young uns' from UBC united by our passion for creative web design and we're here to help businesses like yours connect with
+          the right customers online.</h2>
+          <!--<div id="quote_holder">
+            <h3 id="quote_content">"Everybody's searching for something," Billy tells Sal, the pizza guy. "They're searching for you! We just want to help them find you."</h3>
+            <span id="quote_attr">- The Internship</span>
+          </div>-->
+        </div>
+        <div id="services">
+          <h1>Services</h1>
+          <h2>We are here to help drive results for your business, and to make sure we all have fun while we do it.</h2>
+          <br>
+          <h2>Our team will work with you to craft a fresh, modern, and mobile responsive website that'll help your brand connect with the right people online.</h2>
+          <h2>We'll also help propell your brand to get in front of the right customers on Google and Bing by incorporating your website with the right SEO (Search Engine Optimization) for your industry.</h2>
+        </div>
+        <div id="works">
+          <h1>Works</h1>
+          <a href='http://www.getboocs.com'><img src='media/getboocs.jpg'></a>
+        </div>
+        <div id="contact">
+          <h1>Let's Talk</h1>
+          <h2>Use the form below to send us an email.</h2>
+          <form action="https://formspree.io/advait@webcreative.co" method="POST">
+            <input type="text" name="name">
+            <input type="email" name="_replyto">
+            <input type="submit" value="Send">
+          </form>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="particle/particles.min.js"></script>
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+    </script>
+</html>
