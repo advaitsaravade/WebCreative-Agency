@@ -141,3 +141,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
     transform: translateY(-110%);
     text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
 }
+#about
+{
+    background-color: #001026;
+    background-image: url('media/starrynight.png');
+    background-repeat: repeat;
+    background-position: top;
+    box-shadow: inset 0px 0px 500px rgba(0,0,0,1);
+}
+#about h2
+{
+    display: block;
+    color: #FFF;
+    font-family: unisansthin;
+    line-height: 60px;
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12%;
+    margin-top: 0;
+    padding-bottom: 11%;
+    font-size: 37px;
+    letter-spacing: 1px;
+}
