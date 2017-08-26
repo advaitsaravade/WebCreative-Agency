@@ -143,6 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
 }
 #about
 {
+    min-height: 100vh;
     background-color: #001026;
     background-image: url('media/starrynight.png');
     background-repeat: repeat;
@@ -167,14 +168,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
     display: block;
     color: #FFF;
     font-family: unisansthin;
-    line-height: 60px;
+    line-height: 70px;
     width: 70%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 12%;
+    padding-top: 5%;
+    padding-bottom: 10%;
     margin-top: 0;
-    padding-bottom: 11%;
     font-size: 37px;
     letter-spacing: 1px;
 }
