@@ -51,7 +51,7 @@ body
     height: 100vh;
     position: absolute;
     top: 0;
-    background-image: url('media/splash.png');
+    background-image: url('media/website-development-splash.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
 {
     min-height: 100vh;
     background-color: #001026;
-    background-image: url('media/starrynight.png');
+    background-image: url('media/starrynight-web-agency-vancouver.png');
     background-repeat: repeat;
     background-position: top;
     box-shadow: inset 0px 0px 500px rgba(0,0,0,1);
@@ -192,7 +192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
 {
     min-height: 100vh;
     background-color: #FFF;
-    background-image: url('media/opp_starrynight.png');
+    background-image: url('media/opp-starrynight-web-agency-vancouver.png');
     background-repeat: repeat;
     background-position: top;
     box-shadow: inset 0px 0px 500px rgba(255,255,255,1);
@@ -269,7 +269,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
   min-height: 100vh;
   background-color: rgba(245,0,86,1);
   background: linear-gradient(to left, rgba(245,0,86,1) 0%, rgb(255, 29, 25) 100%);
-  background: url('media/starrynight.png');
+  background: url('media/starrynight-web-agency-vancouver.png');
   background-position: left;
   background-repeat: repeat;
   padding-bottom: 100px;
@@ -405,7 +405,7 @@ border-bottom: 4px solid rgba(255,255,255,0);
 {
   #splash
   {
-    background-image: url(media/splash_mob.png);
+    background-image: url('media/web-development-splash-mob.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
