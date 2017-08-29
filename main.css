@@ -398,6 +398,11 @@ border-bottom: 4px solid rgba(255,255,255,0);
   padding-bottom: 20px;
   font-family: Helvetica, sans-serif;
 }
+#footer #copyright a
+{
+  color: #FFF;
+  text-decoration: none;
+}
 @media only screen and (max-device-width: 500px)
 {
   #splash
