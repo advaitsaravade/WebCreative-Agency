@@ -183,6 +183,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50056', end
     margin-right: 5px;
     font-family: unisansheavy, Helvetica, sans-serif;
 }
+#about #highlight a
+{
+  color: #FFF;
+  text-decoration: none;
+}
 #services
 {
     min-height: 100vh;
