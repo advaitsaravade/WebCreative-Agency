@@ -400,7 +400,7 @@ border-bottom: 4px solid rgba(255,255,255,0);
 }
 #footer #copyright a
 {
-  color: #FFF;
+  color: #555;
   text-decoration: none;
 }
 @media only screen and (max-device-width: 500px)
