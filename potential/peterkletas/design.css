@@ -1,0 +1,254 @@
+@font-face
+{
+    font-family: 'didot';
+    src: url('didot.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'fontawesome';
+    src: url('fontawesome-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    margin-top: 0px !important;
+}
+#tagline
+{
+  margin: 0;
+  padding-top: 5px;
+  font-family: didot;
+  color: rgba(0, 0, 0, 1);
+}
+.x-logobar-inner
+{
+  padding-top: 20px;
+}
+.x-navbar .x-nav-wrap .x-nav > li > a
+{
+  font-family: Helvetica, didot;
+}
+.masthead-stacked .x-brand
+{
+  font-family: didot, georgia;
+}
+.x-header-landmark.x-container.max.width
+{
+  color: #FFF;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url('https://images.unsplash.com/uploads/1413142012358a3b38d01/316f8e75?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=');
+    background-size: cover;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    background-position: center 25%;
+    max-width: inherit;
+}
+.h-landmark
+{
+  color: #FFF;
+font-family: didot;
+font-weight: lighter;
+}
+.p-landmark-sub, .p-meta, input, button, select, textarea
+{
+  font-family: didot, georgia !important;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.67);
+}
+#level2
+{
+  padding-top: 50px;
+}
+#highlight
+{
+  border-bottom: 2px solid rgba(189, 229, 255, 0.26);
+      display: inline;
+      box-shadow: inset 0px -9px rgba(189, 229, 255, 0.74);
+}
+#level2 table
+{
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  border: none;
+}
+#level2 table td
+{
+  vertical-align: top;
+}
+#level2 table #desc
+{
+  font-family: didot;
+  font-weight: lighter;
+  color: #000;
+  font-size: 20px;
+  display: block;
+  line-height: 34px;
+  padding-left: 50px;
+}
+table th, table td
+{
+  border-top: none;
+}
+.entry-title
+{
+  font-family: Helvetica;
+  font-weight: 500;
+}
+.x-iso-container.cols-3>.hentry
+{
+  width: 100%;
+  position: static !important;
+  padding: 0px !important;
+}
+#subtitle
+{
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.entry-header, .entry-content
+{
+  font-family: Helvetica;
+}
+.x-iso-container
+{
+  height: inherit !important;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.135);
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#featurebanner
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(terrah-holly-16329.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner2
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+  background: url(daniel-frank-225181.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entry-wrap
+{
+  padding: 30px !important;
+  box-shadow: none;
+}
+#header
+{
+  font-size: 27px;
+    color: #000;
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    font-family: didot;
+    padding-bottom: 10px;
+}
+.other
+{
+  margin-left: 77px;
+  margin-top: 70px;
+  margin-right: 77px;
+}
+#propertysearch ul
+{
+  list-style-type: none;
+  margin-left: 77px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 77px;
+  line-height: 53px;
+}
+#propertysearch ul li
+{
+  display: inline;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 17px;
+  background: #eee;
+  font-family: Helvetica;
+  color: #1188FF;
+}
+#reachout
+{
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+#reachout p
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+#reachout #phone
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+#reachout #email
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+@media only screen and (max-device-width: 500px)
+{
+  .masthead-stacked .x-navbar
+  {
+        padding-bottom: 25px;
+  }
+  #level2 table td
+  {
+    display: block;
+    text-align: center;
+  }
+  img
+  {
+    width: 60%;
+  }
+  #level2 table #desc
+  {
+    padding: 40px 3px;
+    text-align: left;
+  }
+  .x-iso-container
+  {
+    margin-left: 0;
+  }
+  #reachout p
+  {
+    padding: 0px 30px;
+  }
+  #reachout #phone
+  {
+    display: block;
+  }
+  #reachout #email
+  {
+    display: block;
+  }
+}
