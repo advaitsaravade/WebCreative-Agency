@@ -217,38 +217,4 @@ table th, table td
 }
 @media only screen and (max-device-width: 500px)
 {
-  .masthead-stacked .x-navbar
-  {
-        padding-bottom: 25px;
-  }
-  #level2 table td
-  {
-    display: block;
-    text-align: center;
-  }
-  img
-  {
-    width: 60%;
-  }
-  #level2 table #desc
-  {
-    padding: 40px 3px;
-    text-align: left;
-  }
-  .x-iso-container
-  {
-    margin-left: 0;
-  }
-  #reachout p
-  {
-    padding: 0px 30px;
-  }
-  #reachout #phone
-  {
-    display: block;
-  }
-  #reachout #email
-  {
-    display: block;
-  }
 }
