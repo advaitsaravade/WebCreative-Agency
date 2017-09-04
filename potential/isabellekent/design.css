@@ -1,0 +1,359 @@
+@font-face
+{
+    font-family: 'didot';
+    src: url('didot.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'fontawesome';
+    src: url('fontawesome-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    margin-top: 0px !important;
+}
+#tagline
+{
+  margin: 0;
+  padding-top: 5px;
+  font-family: didot;
+  color: rgba(0, 0, 0, 1);
+}
+.x-logobar-inner
+{
+  padding-top: 20px;
+}
+.x-navbar .x-nav-wrap .x-nav > li > a
+{
+  font-family: Helvetica, didot;
+}
+.masthead-stacked .x-brand
+{
+  font-family: didot, georgia;
+}
+.x-header-landmark.x-container.max.width
+{
+  color: #FFF;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url('vita-vilcina-3217.jpg');
+    background-size: cover;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    background-position: center 25%;
+    max-width: inherit;
+}
+.h-landmark
+{
+  color: #FFF;
+font-family: didot;
+font-weight: lighter;
+}
+.p-landmark-sub, .p-meta, input, button, select, textarea
+{
+  font-family: didot, georgia !important;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 1);
+}
+#level2
+{
+  padding-top: 50px;
+}
+#highlight
+{
+  border-bottom: 2px solid rgba(189, 229, 255, 0.26);
+      display: inline;
+      box-shadow: inset 0px -9px rgba(189, 229, 255, 0.74);
+}
+#level2 table
+{
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  border: none;
+  margin-top: 60px;
+}
+#level2 table td
+{
+  vertical-align: top;
+}
+#level2 table #desc
+{
+  font-family: didot;
+  font-weight: lighter;
+  color: #000;
+  font-size: 20px;
+  display: block;
+  line-height: 34px;
+  padding-left: 50px;
+}
+table th, table td
+{
+  border-top: none;
+}
+.entry-title
+{
+  font-family: Helvetica;
+  font-weight: 500;
+}
+.x-iso-container.cols-3>.hentry
+{
+  width: 100%;
+  position: static !important;
+  padding: 0px !important;
+}
+#subtitle
+{
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.entry-header, .entry-content
+{
+  font-family: Helvetica;
+}
+.x-iso-container
+{
+  height: inherit !important;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.135);
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#featurebanner
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(terrah-holly-16329.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner1
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://s3.amazonaws.com/mrp-listings/8/1/6/59178618/cf33db178c5b7a1f0a4d1d1986c152e6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner2
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://www.vancouvermarket.ca/wp-content/uploads/2013/02/840-Cambie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner3
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://images.dailyhive.com/20161107110719/3101-277-Thurlow-Street-yet-another-dining-area-MacDonald-Realty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner4
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://s3.amazonaws.com/mrp-listings/9/0/4/28824409/7c1e88e1c1c894b32ece9416b01ff473.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner5
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://www.soprovich.com/i-c5d10c06/real-estate/2010_55413.luxury-lg.default.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#localbanner6
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+    background: url(http://jaymcinnes.com/wp-content/uploads/4573-West-2nd-Avenue-roof-top-patio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#featurebanner2
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+  background: url(daniel-frank-225181.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#featurebanner3
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+  background: url(https://s3.amazonaws.com/storage-ubertor-com/gaetankill.myubertor.com/listing/ListingImage_5246_image/28740.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#featurebanner4
+{
+  padding: 0;
+    border: none;
+    width: 100%;
+    height: 245px;
+  background: url(https://s3.amazonaws.com/storage-ubertor-com/gaetankill.myubertor.com/listing/ListingImage_5205_image/28466.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entry-wrap
+{
+  padding: 30px !important;
+  box-shadow: none;
+}
+#header
+{
+  font-size: 27px;
+    color: #000;
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    font-family: didot;
+    padding-bottom: 10px;
+}
+.other
+{
+  margin-left: 77px;
+  margin-top: 70px;
+  margin-right: 77px;
+}
+#propertysearch ul
+{
+  list-style-type: none;
+  margin-left: 77px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 77px;
+  line-height: 53px;
+}
+#propertysearch ul li
+{
+  display: inline;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 17px;
+  background: #eee;
+  font-family: Helvetica;
+  color: #1188FF;
+}
+#reachout
+{
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+#reachout p
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+#reachout #phone
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+#reachout #email
+{
+  font-family: didot;
+  font-size: 20px;
+  color: #000;
+}
+#buttons
+{
+  margin-top: 30px;
+}
+#buttons a
+{
+  display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #FFF;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid #eee;
+}
+#list2, #list3
+{
+  list-style-type: none;
+}
+#list2 li, #list3 li
+{
+  width: 47%;
+    display: inline-block;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+        margin-right: 25px;
+        margin-top: 25px;
+}
+#list3 li
+{
+  width: 30%;
+}
+#list2 a, #list3 a
+{
+  display: block;
+    font-size: 20px;
+    padding: 10px 20px 5px 20px;
+}
+#list2 #subtitle
+{
+  display: block;
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #313131;
+}
+#list2 #para
+{
+  display: block;
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #757575;
+}
