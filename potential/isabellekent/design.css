@@ -357,3 +357,9 @@ table th, table td
     padding: 0px 20px;
     color: #757575;
 }
+.x-colophon
+{
+  box-shadow: none;
+  background-color: inherit;
+  border-top: none;
+}
