@@ -363,3 +363,50 @@ table th, table td
   background-color: inherit;
   border-top: none;
 }
+@media only screen and (max-device-width: 500px)
+{
+  .x-navbar-wrap
+  {
+    display: none;
+  }
+  #tagline
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #buttons a
+  {
+    margin-top: 15px;
+  }
+  #level2
+  {
+    padding-top: 0px;
+  }
+  #level2 table td
+  {
+    display: block;
+    width: 100%;
+  }
+  #level2 table #desc
+  {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+  #header
+  {
+    text-align: center;
+    padding-top: 20px;
+  }
+  #list2, #list3
+  {
+    margin-left: 0;
+  }
+  #list2 li
+  {
+    width: 100%;
+  }
+  #list3 li
+  {
+    width: 44%;
+  }
+}
