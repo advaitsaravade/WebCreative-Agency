@@ -385,7 +385,7 @@ table th, table td
   #level2 table td
   {
     display: block;
-    width: 100%;
+    width: 100% !important;
   }
   #level2 table #desc
   {
