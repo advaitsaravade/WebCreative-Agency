@@ -756,3 +756,132 @@ color: #bababa;
 color: #bababa;
   opacity: 1;
 }
+@media only screen and (max-device-width: 500px)
+{
+  #home
+  {
+    width: 100%;
+  }
+  #titlelogo
+  {
+    text-align: left;
+    font-size: 47px;
+    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 55px;
+    padding-left: 80px;
+    max-height: 99999px;
+    padding-right: 0;
+    color: #2c2c2c;
+  }
+  #home ul
+  {
+    display: none;
+  }
+  #maincontent
+  {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mainpitch
+  {
+    width: 85%;
+    line-height: 145px;
+    padding: 0;
+    color: #000;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-size: 120px;
+    text-align: left;
+  }
+  #highlight
+  {
+    position: relative;
+    top: 75px;
+    padding: 0;
+  }
+  #subpitch
+  {
+    margin-top: 180px;
+    font-size: 41px;
+    max-height: 99999px;
+    line-height: 61px;
+    width: 85%;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: left;
+    z-index: 999;
+    border: none;
+    left: 0px;
+    line-height: 90px;
+  }
+  #bubbles
+  {
+    position: relative;
+    float: none;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    margin-top: 64px;
+    width: 500px;
+    opacity: 1;
+  }
+  #services #h2
+  {
+    padding-top: 150px;
+    letter-spacing: 2px;
+    font-size: 65px;
+    max-height: 99999px;
+  }
+  #h3
+  {
+    padding-top: 60px;
+    font-size: 41px;
+    line-height: 90px;
+    max-height: 99999px;
+  }
+  #services table
+  {
+    top: 90px;
+    width: 100%;
+  }
+  #services table tr td #servicediv
+  {
+    padding: 0;
+  }
+  #services table tr td #servicediv #icon
+  {
+    width: 110px;
+    height: 110px;
+  }
+  #services table tr td #servicediv #whitebox #title
+  {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+  #services table tr td #servicediv #whitebox #subtitle
+  {
+    max-height: 99999px;
+    font-size: 33px;
+  }
+  #services table tr td #servicediv #srcbannerimg1
+  {
+    margin-top: 95px;
+    height: 500px;
+  }
+  #services table tr td #servicediv #whitebox #paragraph
+  {
+    width: 90%;
+    max-height: 99999px;
+    font-size: 37px;
+    line-height: 85px;
+  }
+  #learnmore-web
+  {
+    font-size: 40px;
+    padding: 35px 60px;
+    border-radius: 100px;
+  }
+}
