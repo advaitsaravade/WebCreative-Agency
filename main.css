@@ -866,7 +866,8 @@ color: #bababa;
     max-height: 99999px;
     font-size: 33px;
   }
-  #services table tr td #servicediv #srcbannerimg1, #services table tr td #servicediv #srcbannerimg4
+  #services table tr td #servicediv #srcbannerimg1, #services table tr td #servicediv #srcbannerimg2,
+  #services table tr td #servicediv #srcbannerimg3, #services table tr td #servicediv #srcbannerimg4
   {
     margin-top: 95px;
     height: 500px;
@@ -891,10 +892,6 @@ color: #bababa;
   {
     width: 100%;
     display: block;
-  }
-  #services table tr td #servicediv #srcbannerimg2, #services table tr td #servicediv #srcbannerimg3
-  {
-    height: 500px;
   }
   #team
   {
