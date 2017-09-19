@@ -828,7 +828,7 @@ color: #bababa;
     width: 500px;
     opacity: 1;
   }
-  #services #h2
+  #h2
   {
     padding-top: 150px;
     letter-spacing: 2px;
@@ -880,8 +880,40 @@ color: #bababa;
   }
   #learnmore-web
   {
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 99999px;
     padding: 35px 60px;
     border-radius: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  #services #table2 tr td
+  {
+    width: 100%;
+    display: block;
+  }
+  #services table tr td #servicediv #srcbannerimg2
+  {
+    height: 500px;
+  }
+  #team
+  {
+    top: 0px;
+    padding-top: 60px;
+  }
+  #team table td
+  {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+  }
+  #team img
+  {
+    filter: grayscale() brightness(1.3);
+  }
+  #contactpane
+  {
+    margin-top: 150px;
+    margin-bottom: 100px;
   }
 }
