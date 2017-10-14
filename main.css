@@ -179,8 +179,8 @@ white-space: nowrap;
 {
   width: 400px;
   float: right;
-  position: relative;
-  top: -200px;
+  position: absolute;
+  margin-top: -200px;
   right: 100px;
   opacity: 0.9;
   z-index: 2;
@@ -260,7 +260,6 @@ white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: -120px;
 }
 #services table tr td
 {
