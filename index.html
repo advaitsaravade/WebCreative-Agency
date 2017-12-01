@@ -135,14 +135,14 @@
 </div>
     <script>
     $(document).ready(function(){
-      $("#timer").delay(0).animate({ // 4500
+      $("#timer").delay(3500).animate({ // 4500
         opacity: "1"
       }, "linear", function() {
         $("#loading").animate({
           opacity: "0"
         }, 200);
         $('#timer').pietimer({
-          timerSeconds: 0, // 3
+          timerSeconds: 3, // 3
           color: '#0b132b',
           fill: true,
           showPercentage: false,

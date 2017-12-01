@@ -1050,6 +1050,10 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     right: 35px;
     width: 95px;
   }
+  #headcontainer
+  {
+    box-shadow: 0px 3px rgba(145,158,170,0.25);
+  }
   #headtable #menutd
   {
     display: none;
@@ -1405,6 +1409,8 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     font-size: 60px;
     line-height: 80px;
     width: 80%;
+    margin-top: 0;
+    padding-top: 30px;
   }
   #main-content #successstories h2
   {
@@ -1417,5 +1423,93 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   {
     font-size: 35px;
     padding-bottom: 30px;
+  }
+  #main-content #pitches
+  {
+    margin-top: 100px;
+  }
+  #main-content #pitches #pitch1 td:nth-child(1), #main-content #pitches #pitch2 td:nth-child(2), #main-content #pitches #pitch1 td:nth-child(2), #main-content #pitches #pitch2 td:nth-child(1)
+  {
+    width: 100%;
+    display: block;
+  }
+  #main-content #pitches h1, #main-content #features h1
+  {
+    font-size: 55px;
+    text-align: center;
+  }
+  #main-content #pitches h2, #main-content #features h2
+  {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 65px;
+  }
+  #main-content #pitches p
+  {
+    margin-top: 50px;
+    font-size: 35px;
+    max-height: 9999px;
+    line-height: 65px;
+  }
+  #main-content #pitches img
+  {
+    margin-top: 50px;
+  }
+  #main-content #pitches #tr3 h1
+  {
+    padding-top: 100px;
+  }
+  #main-content #features #table #td
+  {
+    display: block;
+    width: 100%;
+  }
+  #main-content #features #table #td td:nth-child(1)
+  {
+    width: 30%;
+  }
+  #main-content #features #table #td td:nth-child(2)
+  {
+    width: 70%;
+  }
+  #main-content #features #table #td img
+  {
+    width: 80%;
+    height: inherit;
+  }
+  #main-content #features #table #td h3
+  {
+    font-size: 38px;
+    line-height: 60px;
+    max-height: 9999px;
+    position: relative;
+    left: 10px;
+  }
+  #main-content #newrealtor #td1, #main-content #newrealtor #td2
+  {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #main-content #newrealtor h1
+  {
+    font-size: 60px;
+    width: 85%;
+  }
+  #main-content #newrealtor h2
+  {
+    margin-top: 50px;
+    font-size: 35px;
+    max-height: 9999px;
+    line-height: 65px;
+    width: 81%;
+  }
+  #coolbutton
+  {
+    margin-left: 0;
+    padding: 30px 40px;
+    font-size: 30px;
+    margin-top: 65px;
   }
 }
