@@ -1324,9 +1324,9 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   #main-content #contactform table td input[type="submit"]
   {
     position: inherit;
-    font-size: 33px;
-    width: 45%;
-    padding: 30px;
+    font-size: 35px;
+    width: 100%;
+    padding: 50px;
     margin-left: 10px;
     margin-top: 0px;
   }
