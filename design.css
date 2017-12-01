@@ -529,7 +529,7 @@ body
 {
   width: 33.33%;
   padding-top: 55px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 #main-content #features #table #td td:nth-child(1)
 {
@@ -546,7 +546,17 @@ body
   width: 90px;
   height: 90px;
 }
-
+#main-content #features #table #td h2
+{
+  font-family: ls-bold, Helvetica, sans-serif;
+  color: #0b132b;
+  text-align: left;
+  line-height: 26px;
+  margin: 0; padding: 0;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+}
 #main-content #features #table #td h3
 {
   font-family: ls-regular, Helvetica, sans-serif;
@@ -1284,9 +1294,10 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #contactform
   {
-    width: 80%;
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 30px;
+    box-shadow: none;
   }
   #main-content #contactform table td:first-child, #main-content #contactform table td:last-child
   {
@@ -1478,6 +1489,15 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   {
     width: 80%;
     height: inherit;
+  }
+  #main-content #features #table #td h2
+  {
+    font-size: 38px;
+    line-height: 60px;
+    max-height: 9999px;
+    position: relative;
+    left: 10px;
+    font-size: 38px;
   }
   #main-content #features #table #td h3
   {
