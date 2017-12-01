@@ -1301,12 +1301,13 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #contactform table td input[type="text"], #main-content #contactform table td input[type="email"], #main-content #contactform table td textarea
   {
+    max-height: 99999px;
     background: none;
     border-bottom: 5px solid #6772e5;
     padding: 25px 20px 35px 20px;
-    font-size: 32px;
+    font-size: 35px;
     margin: 0px 10px;
-    line-height: 58px;
+    line-height: 64px;
   }
   #main-content #contactform table td input[type="submit"]
   {
