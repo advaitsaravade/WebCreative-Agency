@@ -41,7 +41,18 @@
     <li id="leftitem"><a href="tel:+16047542354">Call or txt: (604) 754-2354</a></li>
   </ul></td>
     <td id="actiontd"><a href="lets-work/">Contact Us</a></td>
-  </tr></table></div>
+  </tr></table>
+  <img id="openmobilenav" src="assets/menunav.png" onclick="document.getElementById('mobilenav').style.display = 'block';"></div>
+  <div id="mobilenav">
+      <img id="closemobilenav" src="assets/back.png" onclick="document.getElementById('mobilenav').style.display = 'none';">
+      <ul>
+          <li><a href="" title="Home" id="mobilenav_but">Home</a></li>
+          <li><a href="pricing/" title="Pricing" id="mobilenav_but">Pricing</a></li>
+          <li><a href="team/" title="Team" id="mobilenav_but">Team</a></li>
+          <li><a href="lets-work" title="Home" id="mobilenav_but">Contact</a></li>
+      </ul>
+      <a href="tel:+16047542354" title="Call Us" id="callbut">Tap here to call us: (604) 754-2354</a>
+  </div>
   <div id="mls-free">
     <h1>Get MLS® on your site for free.</h1>
     <p>Need MLS® added to your existing site? WebCreative has you covered. Setup a meeting with us and we'll install our MLS plugin on your site over coffee ☕</p>
@@ -124,14 +135,14 @@
 </div>
     <script>
     $(document).ready(function(){
-      $("#timer").delay(4500).animate({ // 4500
+      $("#timer").delay(0).animate({ // 4500
         opacity: "1"
       }, "linear", function() {
         $("#loading").animate({
           opacity: "0"
         }, 200);
         $('#timer').pietimer({
-          timerSeconds: 3, // 3
+          timerSeconds: 0, // 3
           color: '#0b132b',
           fill: true,
           showPercentage: false,

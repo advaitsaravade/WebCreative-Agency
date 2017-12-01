@@ -1032,3 +1032,390 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   font-size: 15px;
   font-family: ls-regular, Helvetica, sans-serif;
 }
+#mobilenav
+{
+  display: none;
+}
+#openmobilenav
+{
+  display: none;
+}
+@media only screen and (max-device-width: 500px)
+{
+  #openmobilenav, #closemobilenav
+  {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    width: 95px;
+  }
+  #headtable #menutd
+  {
+    display: none;
+  }
+  #headtable #actiontd
+  {
+    display: none;
+  }
+  #headtable #logotd #logo
+  {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: -5px;
+  }
+  #mobilenav
+  {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 999999999;
+    background: rgba(255, 255, 255, 0.97);
+  }
+  #mobilenav ul
+  {
+    padding: 0;
+    margin: 0;
+    max-height: 999999px;
+    padding-top: 50%;
+  }
+  #mobilenav ul li a
+  {
+    font-family: ls-bold;
+    color: #000;
+    text-decoration: none;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 50px 0px;
+  }
+  #mobilenav #callbut
+  {
+    position: absolute;
+    bottom: 100px;
+    max-height: 999999px;
+    width: 100%;
+    text-align: center;
+    font-family: ls-regular;
+    color: #6772e5;
+    text-decoration: none;
+    font-size: 37px;
+  }
+  #main-content #pricing, #main-content #team, #main-content #contact
+  {
+    padding-top: 110px;
+    background-size: inherit;
+    min-height: 100vh;
+  }
+  #main-content #mls-free
+  {
+    padding-top: 110px;
+  }
+  #main-content #pricing h1, #main-content #team h1, #main-content #contact h1
+  {
+    max-height: 999999px;
+    font-size: 95px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main-content #pricing h2, #main-content #team h2, #main-content #contact h2
+  {
+    max-height: 99999px;
+    font-size: 42px;
+    line-height: 57px;
+    width: 70%;
+    margin-top: 70px;
+  }
+  #main-content #pricing #table1 #td1, #main-content #pricing #table1 #td2
+  {
+    display: block;
+    width: 100%;
+  }
+  #main-content #pricing #table1 #td1 #pricecard h1
+  {
+    max-height: 99999px;
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #main-content #pricing #table1 #td1 #pricecard h2
+  {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  #main-content #pricing #table1 #td1 #pricecard ul
+  {
+    margin-top: 60px;
+  }
+  #main-content #pricing #table1 #td1 #pricecard ul li
+  {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+  #main-content #pricing #table1 #td1 #pricecard ul li img, #main-content #pricing #outertable #faqtd img
+  {
+    width: 50px;
+    height: 50px;
+    top: 7px;
+  }
+  #main-content #pricing #table1 #td2 h3
+  {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  #main-content #pricing #outertable td
+  {
+    display: block;
+    width: 100%;
+    max-height: 999999px;
+  }
+  #main-content #pricing #outertable td h2
+  {
+    font-size: 55px;
+    margin-top: 20px;
+    line-height: 75px;
+  }
+  #main-content #pricing #outertable td
+  {
+    font-size: 34px;
+    line-height: 75px;
+    max-height: 999999px;
+  }
+  #main-content #pricing #outertable #faqtd h4
+  {
+    width: 100%;
+    font-size: 40px;
+    line-height: 70px;
+    max-height: 999999px;
+  }
+  #main-content #pricing #outertable #faqtd p
+  {
+    width: 100%;
+    font-size: 40px;
+    line-height: 70px;
+    margin-top: 25px;
+    max-height: 999999px;
+    padding-bottom: 10px;
+  }
+  #main-content #pricing #helppitch
+  {
+    margin-top: 100px;
+    text-align: center;
+  }
+  #main-content #pricing #helppitch h1
+  {
+    font-size: 60px;
+    padding-top: 100px;
+  }
+  #main-content #pricing #helppitch h2
+  {
+    max-height: 99999px;
+    font-size: 35px;
+    line-height: 65px;
+    margin-bottom: 50px;
+  }
+  #main-content #pricing #helppitch #coolbutton
+  {
+    font-size: 35px;
+    width: 50%;
+    padding: 40px;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+  #main-content #team table td
+  {
+    display: block;
+    width: 100%;
+  }
+  #main-content #team table
+  {
+    margin-top: 150px;
+  }
+  #main-content #team table td h2
+  {
+    max-height: 99999px;
+    font-size: 42px;
+    line-height: 57px;
+    width: 70%;
+    margin-top: 47px;
+    color: #32325d;
+  }
+  #main-content #team table td
+  {
+    display: block;
+    width: 100%;
+  }
+  #main-content #team table td img
+  {
+    width: 85%;
+  }
+  #main-content #team table td h2
+  {
+    font-size: 65px;
+    margin-bottom: 27px;
+  }
+  #main-content #team table td h3
+  {
+    font-size: 25px;
+    margin-bottom: 45px;
+  }
+  #main-content #team table td p
+  {
+    line-height: 75px;
+    font-size: 30px;
+  }
+  #main-content #contact h2
+  {
+    color: #000;
+  }
+  #main-content #contactform
+  {
+    width: 80%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  #main-content #contactform table td:first-child, #main-content #contactform table td:last-child
+  {
+    width: 89%;
+    display: block;
+    font-size: 35px;
+    padding: 60px 40px 40px 40px;
+  }
+  #main-content #contactform table td:last-child
+  {
+    padding: 0px 20px;
+  }
+  #main-content #contactform table td input[type="text"], #main-content #contactform table td input[type="email"], #main-content #contactform table td textarea
+  {
+    background: none;
+    border-bottom: 5px solid #6772e5;
+    padding: 25px 20px 35px 20px;
+    font-size: 32px;
+    margin: 0px 10px;
+    line-height: 58px;
+  }
+  #main-content #contactform table td input[type="submit"]
+  {
+    position: inherit;
+    font-size: 33px;
+    width: 45%;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  #main-content #contact #disclaimer
+  {
+    font-size: 33px;
+    line-height: 65px;
+    max-height: 999999px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #splash h1
+  {
+    font-size: 92px;
+    top: 34%;
+  }
+  #splash h1 #small
+  {
+    font-size: 70px;
+  }
+  #splash p
+  {
+    max-height: 999999px;
+    font-size: 35px;
+    line-height: 65px;
+    top: 55%;
+  }
+  #loading
+  {
+    font-size: 30px;
+  }
+  #timer
+  {
+    height: 50px;
+    width: 50px;
+  }
+  #main-content #mls-free h1
+  {
+    font-size: 75px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main-content #mls-free p
+  {
+    width: 80%;
+    font-family: ls-regular;
+    line-height: 65px;
+    font-size: 39px;
+    max-height: 9999px;
+    margin-bottom: 80px;
+  }
+  #main-content #mls-free form
+  {
+    width: 80%;
+  }
+  #main-content #mls-free input[type="email"]
+  {
+    width: 100%;
+    padding: 35px 25px;
+    font-size: 35px;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  #main-content #mls-free input[type="submit"]
+  {
+    margin-top: 50px;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    padding: 35px;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  #main-content #mls-free #disclaimer
+  {
+    display: none;
+  }
+  #main-content #successstories
+  {
+    margin-top: 110px;
+  }
+  #main-content #successstories td
+  {
+    display: block;
+    width: 100%;
+    height: 28vh;
+  }
+  #main-content #successstories h1
+  {
+    font-size: 60px;
+    line-height: 80px;
+    width: 80%;
+  }
+  #main-content #successstories h2
+  {
+    font-size: 35px;
+    line-height: 60px;
+    width: 80%;
+    max-height: 99999px;
+  }
+  #main-content #successstories a#h2
+  {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+}
