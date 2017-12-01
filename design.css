@@ -1305,6 +1305,7 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     display: block;
     font-size: 35px;
     padding: 60px 40px 40px 40px;
+    max-height: 999999px;
   }
   #main-content #contactform table td:last-child
   {
