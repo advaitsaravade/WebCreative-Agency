@@ -1194,12 +1194,6 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     font-size: 30px;
     line-height: 60px;
   }
-  #main-content #pricing #outertable td
-  {
-    display: block;
-    width: 100%;
-    max-height: 999999px;
-  }
   #main-content #pricing #outertable td h2
   {
     font-size: 55px;
@@ -1208,7 +1202,9 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #pricing #outertable td
   {
-    font-size: 34px;
+    display: block;
+    width: 100%;
+    font-size: 40px;
     line-height: 75px;
     max-height: 999999px;
   }
