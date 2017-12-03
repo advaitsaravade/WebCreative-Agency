@@ -1180,19 +1180,21 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #pricing #table1 #td1 #pricecard ul li
   {
-    font-size: 30px;
+    max-height: 99999px;
+    font-size: 40px;
     padding-top: 25px;
   }
   #main-content #pricing #table1 #td1 #pricecard ul li img, #main-content #pricing #outertable #faqtd img
   {
     width: 50px;
     height: 50px;
-    top: 7px;
+    top: 9px;
   }
   #main-content #pricing #table1 #td2 h3
   {
-    font-size: 30px;
-    line-height: 60px;
+    max-height: 99999px;
+    font-size: 40px;
+    line-height: 75px;
   }
   #main-content #pricing #outertable td h2
   {
@@ -1212,14 +1214,14 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   {
     width: 100%;
     font-size: 40px;
-    line-height: 70px;
+    line-height: 75px;
     max-height: 999999px;
   }
   #main-content #pricing #outertable #faqtd p
   {
     width: 100%;
     font-size: 40px;
-    line-height: 70px;
+    line-height: 75px;
     margin-top: 25px;
     max-height: 999999px;
     padding-bottom: 10px;
@@ -1396,9 +1398,9 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     width: 80%;
     font-family: ls-regular;
     line-height: 65px;
-    font-size: 39px;
-    max-height: 9999px;
-    margin-bottom: 80px;
+    font-size: 40px;
+    max-height: 99999px;
+    margin-bottom: 70px;
   }
   #main-content #mls-free form
   {
@@ -1406,7 +1408,7 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #mls-free input[type="email"]
   {
-    width: 100%;
+    width: 95.4%;
     padding: 35px 25px;
     font-size: 35px;
     border-width: 2px;
@@ -1428,7 +1430,7 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #successstories
   {
-    margin-top: 110px;
+    margin-top: 100px;
   }
   #main-content #successstories td
   {
@@ -1436,59 +1438,78 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     width: 100%;
     height: 28vh;
   }
+  #main-content #successstories td:last-child
+  {
+    height: 40vh;
+  }
   #main-content #successstories h1
   {
     font-size: 60px;
-    line-height: 80px;
+    max-height: 9999px;
+    line-height: 90px;
     width: 80%;
-    margin-top: 0;
-    padding-top: 30px;
+    margin-top: 0px;
+    padding-top: 60px;
   }
   #main-content #successstories h2
   {
-    font-size: 35px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 75px;
     width: 80%;
     max-height: 99999px;
   }
   #main-content #successstories a#h2
   {
-    font-size: 35px;
-    padding-bottom: 30px;
+    font-size: 40px;
+    max-height: 99999px;
   }
   #main-content #pitches
   {
     margin-top: 0px;
   }
-  #main-content #pitches #pitch1 td:nth-child(1), #main-content #pitches #pitch2 td:nth-child(2), #main-content #pitches #pitch1 td:nth-child(2), #main-content #pitches #pitch2 td:nth-child(1)
+  #main-content #pitches #pitch1 td:nth-child(1),
+  #main-content #pitches #pitch2 td:nth-child(2),
+  #main-content #pitches #pitch2 td:nth-child(3),
+  #main-content #pitches #pitch1 td:nth-child(2),
+  #main-content #pitches #pitch2 td:nth-child(1)
   {
     width: 100%;
     display: block;
   }
   #main-content #pitches h1, #main-content #features h1
   {
-    font-size: 55px;
+    font-size: 60px;
     text-align: center;
-    margin-top: 100px;
+    line-height: 75px;
+    padding-top: 100px;
+    width: 80%;
   }
   #main-content #pitches h2, #main-content #features h2
   {
-    font-size: 35px;
+    font-size: 45px;
+    max-height: 99999px;
     text-align: center;
     margin-top: 30px;
-    line-height: 65px;
+    line-height: 75px;
+    width: 80%;
   }
   #main-content #pitches p
   {
     margin-top: 50px;
-    font-size: 35px;
+    font-size: 40px;
     max-height: 9999px;
-    line-height: 65px;
+    line-height: 70px;
     text-align: center;
+    width: 80%;
   }
   #main-content #pitches img
   {
-    margin-top: 50px;
+    margin-top: 100px;
+  }
+  #main-content #pitches #smalltd img
+  {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   #main-content #pitches #pitch2 #bigtd
   {
@@ -1500,8 +1521,16 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #pitches #tr3 h1
   {
-    margin-top: 0px;
+    margin-top: 30px;
     padding-top: 0px;
+  }
+  #main-content #pitches #tr3 p
+  {
+    width: 80%;
+  }
+  #main-content #features
+  {
+    padding-top: 0;
   }
   #main-content #features #table #td
   {
