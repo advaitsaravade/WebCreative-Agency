@@ -48,8 +48,8 @@
 function checkCookie() {
 var seenSplash = getCookie("seenSplash");
 if (seenSplash == "yes") {
-  $("#main-content").css("display", "block");
   $("#splash").css("display", "none");
+  $("#main-content").css("display", "block");
 } else {
   setCookie("seenSplash", "yes", 10);
   $("#timer").delay(3500).animate({ // 4500
