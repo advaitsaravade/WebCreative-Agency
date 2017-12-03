@@ -1250,6 +1250,14 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
     margin-top: 50px;
     margin-bottom: 75px;
   }
+  #main-content #team h2
+  {
+    max-height: 99999px;
+    font-size: 50px;
+    line-height: 75px;
+    width: 70%;
+    color: #6b7c93;
+  }
   #main-content #team table td
   {
     display: block;
@@ -1257,40 +1265,47 @@ box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
   }
   #main-content #team table
   {
-    margin-top: 150px;
+    margin-top: 120px;
   }
   #main-content #team table td h2
   {
     max-height: 99999px;
-    font-size: 42px;
-    line-height: 57px;
+    font-size: 50px;
+    line-height: 75px;
     width: 70%;
-    margin-top: 47px;
-    color: #32325d;
+    margin-top: 70px;
+    color: #6b7c93;
   }
   #main-content #team table td
   {
     display: block;
     width: 100%;
+    max-height: 999999px;
   }
   #main-content #team table td img
   {
-    width: 85%;
+    width: 80%;
   }
   #main-content #team table td h2
   {
     font-size: 65px;
-    margin-bottom: 27px;
+    margin-bottom: 45px;
+    margin-top: 65px;
   }
   #main-content #team table td h3
   {
-    font-size: 25px;
+    font-size: 45px;
     margin-bottom: 45px;
+    max-height: 999999px;
   }
   #main-content #team table td p
   {
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 65px;
+    font-size: 35px;
+    color: #6b7c93;
+    max-height: 99999px;
+    margin-top: 70px;
+    margin-bottom: 30px;
   }
   #main-content #contact h2
   {
