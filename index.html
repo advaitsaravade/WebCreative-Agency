@@ -49,8 +49,6 @@ function checkCookie() {
 var seenSplash = getCookie("seenSplash");
 if (seenSplash == "yes") {
   seensplas = "yes";
-  $("#splash").css("display", "none");
-  $("#main-content").css("display", "block");
 } else {
   seensplas = "no";
   setCookie("seenSplash", "yes", 10);
@@ -174,11 +172,36 @@ checkCookie();
 </div>
   </body>
   <script>
-  if(seensplas == "no")
-  {
     $(document).ready(function(){
-
+      if(seensplas == "no")
+      {
+        $("#splash").css("display", "block");
+        $("#main-content").css("display", "none");
+      $("#timer").delay(3500).animate({ // 4500
+        opacity: "1"
+      }, "linear", function() {
+        $("#loading").animate({
+          opacity: "0"
+        }, 200);
+        $('#timer').pietimer({
+          timerSeconds: 3, // 3
+          color: '#0b132b',
+          fill: true,
+          showPercentage: false,
+          callback: function() {
+                    $("#main-content").css("display", "block");
+                    $("#splash").animate({
+                      position: "absolute",
+                      top: "-100vh",
+                    }, 1250, "easeInOutQuart", function() {  });
+                  }
+              });
+      });
+    }
+    else {
+      $("#splash").css("display", "none");
+      $("#main-content").css("display", "block");
+    }
     });
-  }
   </script>
 </html>
