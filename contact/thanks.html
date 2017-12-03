@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Web Creative - Web Design & Development Agency in Vancouver.</title>
-    <meta name="referrer" content="origin">
-    <meta name="description" content="Get in touch with webcreativeco, a web studio crafting the most beautiful and well designed websites for local businesses and startups.">
-    <meta name="keywords" content="website,making,developer,vancouver,bc,design,web design,website design,website making">
-    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="icon" type="image/png" href="../assets/logoicon_shadow.png">
+    <title>WebCreative: Contact Us</title>
+    <meta name="description" content="Our plans start as low as $41/month. Cutting edge real estate websites and online services.">
+    <meta name="keywords" content="real estate website,pricing,cost,budget,premium,realtor website, website, website making,website developer,vancouver,bc,design,web design,website design">
+    <link rel="stylesheet" type="text/css" href="../design.css">
+    <script src="https://use.fontawesome.com/a105812224.js"></script>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,30 +17,40 @@
     ga('create', 'UA-105582749-1', 'auto');
     ga('send', 'pageview');
 
-    </script>
+  </script>
   </head>
-  <body id="contactbody">
-      <div id="home">
-        <a href="http://www.webcreative.co" id="titlelogo">webcreative.</a>
-        <ul>
-          <li><a id="active" href="../">Home</a></li>
-          <li><a href="../index.html#services">Services</a></li>
-          <!--<li><a href="../index.html#work">Work</a></li>-->
-          <li><a href="../index.html#team">Team</a></li>
-          <li><a id="contactbut" href="">Get in touch</a></li>
-        </ul>
-      </div>
-      <div id="contactcontent">
-        <span id="pagetitle">We've got your email! Promise to get back to you in one business day.</span>
-        <form method="POST" action="https://formspree.io/team@webcreative.co">
-        </form>
-        <br>
-        <span id="label" class="titlelabel">Tired of waiting?</span>
-        <br>
-        <div id="subitemholder">
-        <a href="mailto:team@webcreative.co" id="label" class="label2">Send another email to team@webcreative.co</a>
-        <a href="tel:+1-604-754-2354" id="label" class="label2">Call us on (604) 754-2354</a>
-      </div>
-      </div>
+  <body>
+    <div id="main-content" class="subsequentpages">
+      <div id="headcontainer">
+      <table id="headtable">
+      <td id="logotd"><img src="../assets/test.png" id="logo"></td>
+  <td id="menutd"><ul>
+    <!--<li><a href="clients/">CLIENTS</a></li>-->
+    <li><a href="../">HOME</a></li>
+    <li><a href="../pricing/">PRICING</a></li>
+    <li><a href="../team/">TEAM</a></li>
+    <li id="leftitem"><a href="tel:+16047542354">Call or text: (604) 754-2354</a></li>
+  </ul></td>
+  <td id="actiontd"><a href="../contact/">Contact Us</a></td>
+</tr></table>
+<img id="openmobilenav" src="../assets/menunav.png" onclick="document.getElementById('mobilenav').style.display = 'block';"></div>
+<div id="mobilenav">
+  <img id="closemobilenav" src="../assets/back.png" onclick="document.getElementById('mobilenav').style.display = 'none';">
+  <ul>
+      <li><a href="../" title="Home" id="mobilenav_but">Home</a></li>
+      <li><a href="../pricing/" title="Pricing" id="mobilenav_but">Pricing</a></li>
+      <li><a href="../team/" title="Team" id="mobilenav_but">Team</a></li>
+      <li><a href="../contact/" title="Home" id="mobilenav_but">Contact</a></li>
+  </ul>
+  <a href="tel:+16047542354" title="Call Us" id="callbut">Tap here to call us: (604) 754-2354</a>
+</div>
+  <div id="contact">
+    <h1>Contact Our Team</h1>
+    <h2>We are happy to answer your questions. Fill out the form and we’ll be in touch as soon as possible.</h2>
+    <div id="contactform">
+      <p id="disclaimer">Thanks for sending us the message! We'll be sure to email you before the end of the day!</p>
+    </div>
+  </div>
+</div>
   </body>
 </html>
